@@ -11,7 +11,10 @@
     while(($number + $result) <= 10){
       $result = $number / 2;
       $number = $number + $result;
-      echo $number.'<br />';
+      echo $number;
+      ?>
+      <br />
+      <?php
     }
      ?>
 
